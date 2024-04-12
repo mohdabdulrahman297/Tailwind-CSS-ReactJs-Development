@@ -8,7 +8,7 @@ export default function RadioFilter() {
   };
 
   return (
-    <div className="border sm:w-1/4 sm:p-5 sm:ml-3 lg:w-60 rounded-md p-10 mt-10 lg:ml-32 justify-items-start">
+    <div className="border sm:w-1/4 sm:p-5 sm:ml-3 lg:w-1/6 rounded-md p-10 mt-10 lg:ml-32 mr-10 h-1/4 justify-items-start">
       <div className="font-bold">Document Type</div>
       <div className="flex items-start mt-2 flex-col">
         <label className="flex items-center">

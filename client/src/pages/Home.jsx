@@ -2,6 +2,8 @@ import React from "react";
 import RadioFilter from "../components/RadioFilter";
 import SearchBar from "../components/SearchBar";
 import Info from "../components/Info";
+import Help from "../components/Help";
+import Survey from "../components/survey";
 
 export default function Home() {
   return (
@@ -14,11 +16,13 @@ export default function Home() {
       </div>
 
       <SearchBar />
-      <div className=" mt-5">
-        <Info />
 
+      <div className="flex">
         <RadioFilter />
+        <Info />
       </div>
+      <Help />
+      <Survey />
     </div>
   );
 }

@@ -29,7 +29,7 @@ export default function Header() {
 
       <div className="ml-auto flex space-x-4">
         <Link to="/sign-in">
-          <Button className="rounded-full px-3 border-blue-800 bg-white text-blue-800 hover:bg-blue-800 hover:text-white hidden sm:hidden md:flex">
+          <Button className="rounded-full px-3 border-blue-800 bg-white text-blue-800 hover:bg-blue-800 hover:text-white hidden sm:hidden md:flex border-2">
             Log In
           </Button>
         </Link>

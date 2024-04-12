@@ -13,7 +13,7 @@ export default function Survey() {
             </p>
             <p>with some quick feedback</p>
           </div>
-          <button className="bg-blue-800 px-6 py-2 rounded-3xl text-white ml-20">
+          <button className="bg-blue-800 px-6 py-2  rounded-3xl text-white ml-20">
             Take a survey
           </button>
         </div>

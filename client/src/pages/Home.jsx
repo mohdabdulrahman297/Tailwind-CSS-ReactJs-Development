@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 import Info from "../components/Info";
 import Help from "../components/Help";
 import Survey from "../components/survey";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </div>
       <Help />
       <Survey />
+      <Footer />
     </div>
   );
 }
